@@ -1,0 +1,57 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(133, 111, 153);
+}
+.container {
+    margin: auto;
+    /*border: 1px solid #000;*/
+    width: max-content;
+    background-color:mintcream;
+    padding: 10px;
+}
+.game-info{
+    /*border: 1px solid #000;*/
+    background-color: navajowhite;
+}
+
+span{
+    font-size: 38px;
+    color: rgb(12, 211, 75);
+    
+}
+
+.game-info h2 {
+    /*border: 1px solid #000;*/
+    text-align: center;  
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+}
+
+.elements .game-info{
+    width: 200px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    background-color: floralwhite;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    background-image: url('topo1.jpg');
+    background-size: cover;
+}
